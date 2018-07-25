@@ -1,3 +1,9 @@
+
+// import React from 'react';
+// import { Form, Input, TextArea, Button, Divider } from 'semantic-ui-react';
+// import styled from 'styled-components';
+
+
 {/* <Container>
 							<Grid.Row>
 								<Grid.Column mobile={4} tablet={8} computer={16}>

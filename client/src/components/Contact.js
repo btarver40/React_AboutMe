@@ -56,10 +56,10 @@ overflow: scroll;
 
 const Headerr = styled.h1`
   position: absolute;
-  left: 40%;
+  left: 55%;
   top: 5%;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 50px;
   font-size: 75px;
   color: black;
   font-family: 'Crete Round', serif;
@@ -67,7 +67,8 @@ const Headerr = styled.h1`
 
 const FormStyle = styled.div`
   align-items: center;
-  padding-left: 600px;
+  padding-left: 650px;
+  padding-bottom: 150px;
   display: flex;
 `
 

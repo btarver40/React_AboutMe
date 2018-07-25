@@ -44,15 +44,12 @@ const Contact = () => (
   </MainHeader>
 )
 
-
-
 const MainHeader = styled.div`
 background-image: url(https://images.unsplash.com/photo-1512386233331-f023884a92e8?ixlib=rb-0.3.5&s=a897e129ede506cdc32c4a251acb6eb1&auto=format&fit=crop&w=1672&q=80);
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat; 
-height: 800px;
-// width: 1300px;
+height: 750px;
 display: flex;
 overflow: scroll;
 `
@@ -63,15 +60,15 @@ const Headerr = styled.h1`
   top: 5%;
   text-align: center;
   padding-top: 20px;
-  font-size: 55px;
+  font-size: 75px;
   color: black;
   font-family: 'Crete Round', serif;
 `
 
 const FormStyle = styled.div`
   align-items: center;
-  padding: 30px;
-  float: right;
+  padding-left: 600px;
+  display: flex;
 `
 
 export default Contact;

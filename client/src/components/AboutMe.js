@@ -31,20 +31,14 @@ class AboutMe extends Component {
               </MainHeader>
 						</Grid.Column>
 					</Grid.Row>
-          <Container fluid>
               <Wrapper>
               <SecondHeader>Background</SecondHeader>
               <Paragraph>I was born and raised in Salt Lake City Utah. I grew up with two brothers, my dad (from California), my mom (from Chile/Argentina), our dogs, and playing tennis!<br/> <br/> After high school, I went to the University of Utah where I met the love of my life, graduated in 2016, and two years later began my web development journey.</Paragraph>
               </Wrapper>
-              {/* <ThirdHeader>Just Married</ThirdHeader> */}
-              {/* <Divider hidden/> */}
-              {/* <Image src={UsPhoto} size='large' />
-              <Image src={WeddingPhoto} size='tiny' />
-
-              <ImageDescription>The Engagements</ImageDescription> */}
-              </Container>
-              <Container>
+                <TestWrapper>
               <ThirdHeader>My Time at DevPoint Labs</ThirdHeader>
+              </TestWrapper>
+              <Container >
               <Preview picture={'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/36408376_985042545001717_6975907095006674944_o.jpg?_nc_cat=0&oh=7388c592004295b295908a9be47121fb&oe=5BDF49ED'}>
                     <PreviewText>
                       <h1>MY EXPERIENCE AT DEVPOINT</h1>
@@ -105,18 +99,18 @@ const ThirdHeader = styled.div`
   position: absolute;
   text-align: center;
   font-size: 65px;
-  padding-top: 690px;
+  // padding-top: 690px;
   color: black;
   font-family: 'Crete Round', serif;
   left: 20%;
-  top: 70%;
+  top: 183%;
 `
 
 const Paragraph = styled.h1`
   font-family: 'Crete Round', serif;
   // text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 20px;
 `
 
 const Wrapper = styled.div`
@@ -125,7 +119,12 @@ const Wrapper = styled.div`
 	justify-content: center;
 	flex-direction: column;
 	height: 500px;
-  background: linear-gradient(#E2F0FA),rgb(39, 39, 39)) 
+  background-color: #9EABAD;
+`
+
+const TestWrapper = styled.div`
+  background-color: white;
+  height: 110px;
 `
 
 const ImageContainer = styled.div`

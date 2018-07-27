@@ -11,7 +11,7 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <Menu>
+        <Menu fixed="top">
           <Link to='/'>
             <Menu.Item name='Home' active={this.activeItem('/')} />
           </Link>
@@ -19,8 +19,8 @@ class NavBar extends Component {
             <Link to='/about'>
               <Menu.Item name='About Me'/>
             </Link>
-            <Link to='/myinterests'>
-              <Menu.Item name='My Interests' />
+            <Link to='/moment'>
+              <Menu.Item name='Moments' />
             </Link>
             <Link to='/contact'>
               <Menu.Item name='Contact' />

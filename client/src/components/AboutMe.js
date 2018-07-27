@@ -33,7 +33,7 @@ class AboutMe extends Component {
 					</Grid.Row>
               <Wrapper>
               <SecondHeader>Background</SecondHeader>
-              <Paragraph>I was born and raised in Salt Lake City Utah. I grew up with two brothers, my dad (from California), my mom (from Chile/Argentina), our dogs, and playing tennis!<br/> <br/> After high school, I went to the University of Utah where I met the love of my life, graduated in 2016, and two years later began my web development journey.</Paragraph>
+              <Paragraph>I was born and raised in Salt Lake City Utah. I grew up with two brothers, my dad (from California), my mom (from Chile/Argentina), our dogs, and playing tennis!<br/> <br/> After high school, I went to the University of Utah where I met the love of my life(married July 2017), graduated in 2016, and two years later began my web development journey.</Paragraph>
               </Wrapper>
                 <TestWrapper>
               <ThirdHeader>My Time at DevPoint Labs</ThirdHeader>
@@ -42,19 +42,19 @@ class AboutMe extends Component {
               <Preview picture={'https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/36408376_985042545001717_6975907095006674944_o.jpg?_nc_cat=0&oh=7388c592004295b295908a9be47121fb&oe=5BDF49ED'}>
                     <PreviewText>
                       <h1>MY EXPERIENCE AT DEVPOINT</h1>
-                      <h4>I never thought I would get into the field of web development, but I am so happy that I found this path and went for it.<br/><br/> After going through this program, I am amazed at the skills I have attained and I am really enjoying every bit of the learning process. </h4>
+                      <h3>I never thought I would get into the field of web development, but I am so happy that I found this path and went for it!<br/><br/> After going through this program, I am amazed at the skills I have attained and I am really enjoying every bit of the learning process. </h3>
                     </PreviewText>
                   </Preview>
                   <Preview picture={'https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b5de7ef1f866b5c56adb3ef5d841c1c&auto=format&fit=crop&w=800&q=60'}>
                     <PreviewText>
                       <h1>EAT. SLEEP. CODE. REPEAT</h1>
-                      <h4>This program was the most intense learning experience I have ever gone through! We all literally ate, slept, coded/studied, <br/> and repeated the process for three months straight, and I could not have asked for anything better. <br/> <br/> I definitely could not have learned all that I know now had this program been anything but immersive. </h4>
+                      <h3>This program was the most intense learning experience I have ever gone through! We all literally ate, slept, coded/studied, <br/> and repeated the process for three months straight, and I could not have asked for anything better. <br/> <br/> I definitely could not have learned all that I know now had this program been anything but immersive. </h3>
                     </PreviewText>
                   </Preview>
                   <Preview picture={'https://images.unsplash.com/photo-1527153818091-1a9638521e2a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5fce4ce8856a711cc50a14e03e58783a&auto=format&fit=crop&w=800&q=60'}>
                     <PreviewText>
                       <h1>COLLABORATION</h1>
-                      <h5>DevPoint Labs is very big on collaboration and throughout the cohort, we worked in different groups each week. <br/> <br/> When we got into our final portfolio groups is where we got to experience what the workplace would really be like;<br/> it was such a great experience to know what the workflow will be like once we go out into the workplace.</h5>
+                      <h3>DevPoint Labs is very big on collaboration and throughout the cohort, we worked in different groups each week. <br/> <br/> When we got into our final portfolio groups is where we got to experience what the workplace would really be like;<br/> it was such a great experience to know what the workflow will be like once we go out into the workplace.</h3>
                     </PreviewText>
                   </Preview>
                  </Container>
@@ -92,7 +92,7 @@ const MainHeader = styled.div`
   padding-top: 690px;
   color: black;
   font-family: 'Crete Round', serif;
-  left: 35%;
+  left: 2%;
   top: 16%;
 `
 const ThirdHeader = styled.div`
@@ -102,8 +102,8 @@ const ThirdHeader = styled.div`
   // padding-top: 690px;
   color: black;
   font-family: 'Crete Round', serif;
-  left: 20%;
-  top: 183%;
+  left: 24%;
+  top: 175%;
 `
 
 const Paragraph = styled.h1`
@@ -118,7 +118,7 @@ const Wrapper = styled.div`
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 500px;
+	height: 480px;
   background-color: #9EABAD;
 `
 
@@ -130,6 +130,7 @@ const TestWrapper = styled.div`
 const ImageContainer = styled.div`
   // display: flex;
   padding-right: 250px;
+  padding-top: 50px;
   // align-content: center;
   // border-radius: 35px;
 `

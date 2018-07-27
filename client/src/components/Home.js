@@ -67,8 +67,8 @@ const AboutButton = styled.div`
   color: white;
   opacity: 0.7;
   position: absolute;
-  left: 53%;
-  top: 48%;
+  left: 56%;
+  top: 55%;
 `
 
 export default Home;
